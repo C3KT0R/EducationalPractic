@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" modified="2024-05-29T01:10:13.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="ltkwz6j19Sf7bTSyIcq8" version="24.4.9" type="device">
+  <diagram name="Страница — 1" id="G5TwiFS9o4xO-lp426D0">
+    <mxGraphModel dx="2009" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-58" value="создать объявление?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="330" y="770" width="126" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-59" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="392.9" y="770" as="sourcePoint" />
+            <mxPoint x="392.9" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-60" value="Ввод необходимых данных" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="175.75" y="850" width="128.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oks4QLLE_htxSHBhnq_D-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-62" value="да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Oks4QLLE_htxSHBhnq_D-61">
+          <mxGeometry x="-0.3153" relative="1" as="geometry">
+            <mxPoint x="4" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-64" value="проверка на эдентичность данных в базе" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="180" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-65" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Oks4QLLE_htxSHBhnq_D-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="949" as="sourcePoint" />
+            <mxPoint x="240" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-66" value="база данных" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="940" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-67" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="970" as="sourcePoint" />
+            <mxPoint x="180" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-68" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1030" as="sourcePoint" />
+            <mxPoint x="240" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-76" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Oks4QLLE_htxSHBhnq_D-69" target="Oks4QLLE_htxSHBhnq_D-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="392" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-77" value="да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Oks4QLLE_htxSHBhnq_D-76">
+          <mxGeometry x="-0.4071" relative="1" as="geometry">
+            <mxPoint x="-2" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-69" value="Объявление уникально?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="171.5" y="1030" width="128.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-71" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1060" as="sourcePoint" />
+            <mxPoint x="180" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-74" value="нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Oks4QLLE_htxSHBhnq_D-71">
+          <mxGeometry x="0.277" y="-3" relative="1" as="geometry">
+            <mxPoint x="15" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-72" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1060" as="sourcePoint" />
+            <mxPoint y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-75" value="сообщение об успешном создании объявления" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1100" width="123" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-80" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Oks4QLLE_htxSHBhnq_D-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="810" as="sourcePoint" />
+            <mxPoint x="520" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-81" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="850" as="sourcePoint" />
+            <mxPoint x="520" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-82" value="просмотр других объявлений" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="850" width="128.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-83" value="нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="788" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-85" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1140" as="sourcePoint" />
+            <mxPoint x="520" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-87" value="конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458.5" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-88" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Oks4QLLE_htxSHBhnq_D-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="960" as="sourcePoint" />
+            <mxPoint x="520" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-89" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1140" as="sourcePoint" />
+            <mxPoint x="520" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-90" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Oks4QLLE_htxSHBhnq_D-91" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Oks4QLLE_htxSHBhnq_D-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="880" as="sourcePoint" />
+            <mxPoint x="50" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

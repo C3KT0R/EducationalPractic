@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E7E7E7;
+}
+
+#img1 {
+    background-image: url(dog.jpg);
+    height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #DEC55A;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+
+}
+
+.button {
+    width: 180px;
+    font-size: 20px;
+    background-color: #DEC55A;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-left: white solid 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9998;
+    background-color: grey;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+}
+#box{
+    max-width: 300px;
+    padding: 45px;
+    z-index: 1;
+    background-color: antiquewhite;
+    margin: 30px, 15px;
+}
+#modal.open{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+#modall{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9998;
+    background-color: grey;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+}
+#boxes{
+    max-width: 300px;
+    padding: 45px;
+    z-index: 1;
+    background-color: antiquewhite;
+    margin: 30px, 15px;
+}
+
+#modall.open{
+    visibility: visible;
+    opacity: 1;
+}

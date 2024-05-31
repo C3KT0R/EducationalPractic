@@ -1,0 +1,31 @@
+
+CREATE TABLE user ( 
+    id_user INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    first_name VARCHAR (100) NOT NULL, last_name VARCHAR (100) NOT NULL, login VARCHAR (100) NOT NULL, password VARCHAR (100) NOT NULL, phone_number VARCHAR(100) NOT NULL
+);
+CREATE TABLE pet ( 
+    id_pet INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    first_name VARCHAR (100) NOT NULL, race_pet VARCHAR (100) NOT NULL, phone_number VARCHAR (100) NOT NULL, pet_info VARCHAR (255) NOT NULL);
+);
+CREATE TABLE distrit ( 
+    id_district INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    street_name VARCHAR (100) NOT NULL, race_pet VARCHAR (100) NOT NULL, phone_number VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE category (
+id_category INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+street_name VARCHAR (100) NOT NULL, race_pet VARCHAR(100) NOT NULL,
+last_seen DATE NOT NULL, pet_info VARCHAR (100)
+);
+
+CREATE TABLE alarm ( 
+id main INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+id pet INT, 
+foreign_key (id_pet) REFERENCES pet (id_pet), 
+id district INT, 
+foreign_key (id_district) REFERENCES district (id_district),
+id category INT, 
+foreign_key (id_category) REFERENCES category (id_category), 
+id user INT, 
+foreign key (id_user) REFERENCES user (id_user)   
+);
